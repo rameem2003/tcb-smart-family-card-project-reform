@@ -51,3 +51,21 @@ The Trading Corporation of Bangladesh (TCB) family card is a subsidized food ini
 - Logistical Challenges at Sales Points: Beneficiaries often face long waiting times, sometimes up to 10 hours, to purchase products. Some sales points lack adequate, separate lines for women and disabled individuals.
 
 ![Corruption in family card](https://www.tbsnews.net/sites/default/files/styles/very_big_1/public/images/2025/12/21/tcb-1.png)
+
+## FAQ
+
+### General Questions
+
+**Q: Is this project politically affiliated**
+A: No, this project is not politically affiliated.
+
+**Q: What browsers are supported?**
+A: All modern browsers that support ES6+ features (Chrome 60+, Firefox 60+, Safari 12+, Edge 79+).
+
+**Q: Can I use this in a commercial project?**
+A: Yes, the MIT license allows commercial use.
+
+### Technical Questions
+
+**Q: How do I report a bug?**
+A: Please create an issue on GitHub with a detailed description and reproduction steps.
