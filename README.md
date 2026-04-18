@@ -1,4 +1,6 @@
-# TCB Smart Family Card Project (Our findings & Solutions)
+# Rapid Purchase Pass (One pass One Nation)
+
+### TCB Smart Family Card Project (Our findings & Solutions)
 
 ## Main Context
 
@@ -28,7 +30,7 @@ The Trading Corporation of Bangladesh (TCB) family card is a subsidized food ini
 
 ## Technical issues that we are pointing
 
-- Accountability: A beneficiaries can't track there monthly purchase of essential goods through any platform. Sometimes a beneficiaries can make 2 or more family card with using same NID and can purchase more goods illigally.
+- Accountability: A beneficiaries can't track there monthly purchase of essential goods through any platform. Sometimes a beneficiaries can make 2 or more family card with using same NID and can purchase more goods illegally.
 
 - Smart Card Conversion & NID Integration: The government is in the process of converting roughly 10 million (1 crore) manual cards into smart cards. This process involves verifying beneficiary data against the National ID database to eliminate fraudulent or duplicate entries.
 
@@ -50,22 +52,32 @@ The Trading Corporation of Bangladesh (TCB) family card is a subsidized food ini
 
 - Logistical Challenges at Sales Points: Beneficiaries often face long waiting times, sometimes up to 10 hours, to purchase products. Some sales points lack adequate, separate lines for women and disabled individuals.
 
+- Lack of Transparency and Accountability: Beneficiaries have no way to track their monthly purchases or card status through any platform, leading to confusion and potential misuse. There are also reports of individuals creating multiple cards using the same NID to illegally purchase more goods.
+
+- Beneficiaries can buy more than the allowed quantity of goods by using their own cards, which is a significant issue in terms of resource allocation and fairness.
+
 ![Corruption in family card](https://www.tbsnews.net/sites/default/files/styles/very_big_1/public/images/2025/12/21/tcb-1.png)
+
+## What we are proposing
+
+- Digital Tracking System: Implement a digital platform accessible via a mobile app and web portal where beneficiaries can track their monthly purchases, card status, and receive notifications about their entitlements.
+- Biometric Verification (Experimental): Integrate biometric authentication (fingerprint or facial recognition) at the point of sale to ensure that only the rightful cardholder can make purchases, preventing misuse of cards.
+- Enhanced Data Verification: Strengthen the data verification process during card issuance by cross-referencing with multiple government databases (NID, social welfare records) to minimize fraudulent entries.
+- Transparent Distribution Process: Establish a transparent and accountable distribution process with regular audits and public reporting to ensure that cards are issued to eligible beneficiaries and to reduce corruption.
+- Beneficiaries can purchase goods only once a month, and the system should automatically track and enforce this limit to prevent multiple purchases using the same card or multiple cards with the same NID.
 
 ## FAQ
 
 ### General Questions
 
-**Q: Is this project politically affiliated**
-A: No, this project is not politically affiliated.
+**Q: What is the TCB Smart Family Card?**
+A: The TCB Smart Family Card is a subsidized food initiative by the Trading Corporation of Bangladesh (TCB) that provides essential commodities like rice, lentils, oil, and sugar at reduced prices to low-income households.
 
-**Q: What browsers are supported?**
-A: All modern browsers that support ES6+ features (Chrome 60+, Firefox 60+, Safari 12+, Edge 79+).
+**Q: Who is eligible for the TCB Smart Family Card?**
+A: The card is targeted at low-income, poor, or vulnerable families. Beneficiaries are selected by local administrations and representatives based on specific criteria.
 
-**Q: Can I use this in a commercial project?**
-A: Yes, the MIT license allows commercial use.
+**Q: What products can I purchase with the TCB Smart Family Card?**
+A: Cardholders can typically purchase up to two litres of edible oil, two kg of lentils, one kg of sugar, and five kg of rice monthly. During Ramadan, additional items like dates and chickpeas are included.
 
-### Technical Questions
-
-**Q: How do I report a bug?**
-A: Please create an issue on GitHub with a detailed description and reproduction steps.
+**Q: How do I apply for the TCB Smart Family Card?**
+A: Applications are usually submitted through local administrative offices or designated TCB dealers. The process may involve providing necessary documentation and undergoing verification. But as our proposal, we are suggesting to make an online application system for this card.
